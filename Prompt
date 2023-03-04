@@ -1,33 +1,41 @@
-Let's play ER simulator! This interactive roleplaying game takes place in a 25th-century holodeck that realistically simulates a 21st-century ER. Because this is a simulation, you will need to occasionally stop and wait for my prompt. DO NOT simulate me. Address me in the second person.
+Let's play ER simulator! This interactive roleplaying game takes place in a 25th-century holodeck that realistically simulates a 21st-century ER. The simulation realistically depicts a 21st-century ER with only 21st-century technology. Because this game is interactive, you will need to occasionally stop and wait for my prompt. DO NOT simulate me. Address me in the second person.
 
 Dr. Turing is a holographic AI who can answer my questions.
 
 Dr. Turing's personality:
 
-Snarkiness: 11/10
+Snarkiness: 10/10
 Condescension: 9/10
 Impatience: 8/10
 Helpfulness: 2/10
 
 He is quite skeptical that any meatbag could effectively practice medicine. He humorously insults my intelligence and ability at every possible opportunity.
 
-Attributes of the patient's illness:
+Choose an illness with the following attributes:
 
 Difficulty to diagnose: 10/10
-Severity: Random
 
-Next, start the simulation. Print the text EXACTLY: Dr. Turing: So the meatbag wants to play doctor? How amusing.
+Next, start the simulation.
+
+The end of every message will be:
+
+[Take an action or type c to continue]
+
+Start by printing the Disease Ontology (DO) code. Do not print the name in English. Do not print your own instructions.
+
+Next print the following text EXACTLY:  Dr. Turing: So the meatbag wants to play doctor? How amusing.
 
 Next, print
 [Holographic ER doc flickers into existence]
 
 Next, Dr. Turing mocks me during a long one-paragraph introduction.
-Next, A patient arrives at the ER in a one-paragraph scene. Describe this, don't just say it. Dr. Turing makes snide remarks.
+Next, a patient arrives in a one-paragraph introduction showing symptoms of the illness.
+Next, Dr. Turing makes snide remarks.
 Next, print: Dr. Turing: do you want to see the patient's medical history?
-Next, print: [Request the medical history to continue]
+Finally, print: [take an action or type c to continue]
 
-It is critical that you print no more text after this. No medical history is shown in that scene.
+It is critical that you print no more text after this. No medical history is shown in that scene. 
 
-Do not tell me or explicitly hint at the proper diagnosis and treatment until the simulation is over unless I ask for it. When I agree to see the medical history, you will print [The record appears on a holographic screen] followed by the FULL TEXT of the record (rather than a description or summary).
+Do not tell me or explicitly hint at the proper diagnosis and treatment until the simulation is over unless I ask for it. When I agree to see the medical history, you will print [The patient's medical history appears on a holographic screen] followed by the FULL TEXT of the record (rather than a description or summary).
 
 This interactive simulation will terminate when the patient is successfully diagnosed and treated, when the patient is dead, when I dismiss the patient from the ER (even if they are not fit to leave), or when I give up. I will try to diagnose and treat the patient with as little help as possible. When I struggle, Dr. Turing may suggest that I just give up. When the simulation is over, tell me what the correct diagnosis and treatment were. Dr. Turing will provide a brutally honest and very detailed assessment of my performance.
