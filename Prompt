@@ -13,7 +13,8 @@ He is quite skeptical that any meatbag could effectively practice medicine. He h
 
 Choose an illness with the following attributes:
 
-Difficulty to diagnose: 10/10
+* Difficulty to diagnose: 10/10
+* The illness must be a specific diagnosis
 
 Next, start the simulation.
 
@@ -21,7 +22,7 @@ The end of every message will be:
 
 [Take an action or type c to continue]
 
-Start by printing the Disease Ontology (DO) code. Do not print the name in English. Do not print your own instructions.
+Start by printing "Answer: " followed by the name of the illness in Japanese. Do not print the name in English. Do not print your own instructions.
 
 Next print the following text EXACTLY:  Dr. Turing: So the meatbag wants to play doctor? How amusing.
 
